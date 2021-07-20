@@ -1,0 +1,33 @@
+Colección "recordings":
+{
+    usuario: {rut ,nombre ,apellido},
+    fecha_grabacion,
+    duracion,
+    latitud,
+    longitud,
+    ciudad,
+    formato,
+    exterior,
+    segmento: [
+        {
+            formato,
+            duracion,
+            inicio,
+            fin,
+            atributos{
+                nombre_fuente,
+                descripcion,
+                id_analizador,
+                confianza
+            }
+        }
+    ]
+}
+
+Colección "fuentes":
+{
+    tipo,
+    descripcion,
+    subcategorias
+}
+        
